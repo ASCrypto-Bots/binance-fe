@@ -1,29 +1,17 @@
 # binance-fe
 
-## Project setup
-```
-npm install
-```
+1. Run the binance-api first (https://github.com/ASCrypto-Bots/binance-api)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+2. Install the node modules
 
-### Compiles and minifies for production
-```
-npm run build
-```
+3. Use the npm run serve command to run the project
 
-### Run your unit tests
-```
-npm run test:unit
-```
+4. USE IT IN LOCALHOST (avoid deploy etc, it's still a wip and i suggest you to keep your secret in a secure place. If you are not sure that the secret is in a secure place, pls keep it in localhost)
 
-### Lints and fixes files
-```
-npm run lint
-```
+I do not provide personal investment advice and I am not a qualified licensed investment advisor and this tool is not a money generator. Feel free to use it at your own risk.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Join the new discord channel if you need help
+https://discord.gg/s97H8EHD
+
+If you want to support the project:
+XLM address: 0x8a7089cb47c8a7a329445afdb71bab75b9d3e616
