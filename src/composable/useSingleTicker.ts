@@ -110,7 +110,7 @@ export default function useSingleTicker(options: IUseTicker) {
         const lastCheckPrice = state.ticks[state.ticks.length - 2]?.askPrice;
         const actualAskPrice = state.ticks[state.ticks.length - 1]?.askPrice;
         const actualAskPricePlus10Percent = actualAskPrice + ((actualAskPrice * 10) / 100);
-        const availableBUSD = getBalancePer(options.mainCoin) / 1;
+        const availableBUSD = getBalancePer(options.mainCoin) / 5;
         const actualBuyPrice = getBuyPrice();
         const actualSellPrice = getSellPrice();
         const differenceBuySellPercent = 100 - percentage(actualBuyPrice, actualSellPrice);
